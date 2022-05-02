@@ -1,0 +1,149 @@
+{
+  "CodeCoverage.dll": {
+    "C:\\Users\\iamsap\\Source\\repos\\CodeCoverage\\CodeCoverage\\Program.cs": {
+      "CodeCoverage.Program": {
+        "System.Void CodeCoverage.Program::Main(System.String[])": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Hosting.IWebHostBuilder CodeCoverage.Program::CreateWebHostBuilder(System.String[])": {
+          "Lines": {
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\iamsap\\Source\\repos\\CodeCoverage\\CodeCoverage\\Startup.cs": {
+      "CodeCoverage.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration CodeCoverage.Startup::get_Configuration()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.Void CodeCoverage.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.Void CodeCoverage.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "46": 0
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 9,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void CodeCoverage.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\iamsap\\Source\\repos\\CodeCoverage\\CodeCoverage\\Controllers\\ValuesController.cs": {
+      "CodeCoverage.Controllers.ValuesController": {
+        "Microsoft.AspNetCore.Mvc.ActionResult`1<System.Collections.Generic.IEnumerable`1<System.String>> CodeCoverage.Controllers.ValuesController::Get()": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.ActionResult`1<System.String> CodeCoverage.Controllers.ValuesController::Get(System.Int32)": {
+          "Lines": {
+            "31": 0,
+            "32": 0,
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.Void CodeCoverage.Controllers.ValuesController::Post(System.String)": {
+          "Lines": {
+            "38": 0,
+            "39": 0
+          },
+          "Branches": []
+        },
+        "System.Void CodeCoverage.Controllers.ValuesController::Put(System.Int32,System.String)": {
+          "Lines": {
+            "44": 0,
+            "45": 0
+          },
+          "Branches": []
+        },
+        "System.Void CodeCoverage.Controllers.ValuesController::Delete(System.Int32)": {
+          "Lines": {
+            "50": 0,
+            "51": 0
+          },
+          "Branches": []
+        },
+        "System.Void CodeCoverage.Controllers.ValuesController::.ctor(CodeCoverage.Services.IOrderService)": {
+          "Lines": {
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 0
+          },
+          "Branches": [
+            {
+              "Line": 18,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 18,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}
